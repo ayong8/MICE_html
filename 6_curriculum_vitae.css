@@ -1,0 +1,43 @@
+.curriculum_vitae_table td {
+	height: 40px;
+}
+
+.curriculum_vitae_manage {
+	float:left;
+	margin: 40px;
+}
+
+.curriculum_vitae_name {
+	text-align: right;
+	padding: 10px;
+	padding-left: 100px;
+	font-size: 18px;
+}
+
+.curriculum_vitae_text_area {
+	float:left;
+	padding: 10px;
+}
+
+.curriculum_vitae_text {
+	width: 300px;
+	height: 20px;
+	background: white;
+	border: 10px blue;
+}
+
+.curriculum_vitae_button {
+	clear: left;
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 15px;
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	border-style: none;
+	padding: 0px;
+
+}

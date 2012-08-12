@@ -1,0 +1,35 @@
+.com_signin_complete_table {
+	padding-left: 30px;
+	float:left;
+}
+
+.com_signin_complete_table td {
+	height: 40px;
+	text-align: center;
+}
+
+.com_signin_complete_result {
+	padding: 20px;
+}
+
+.com_signin_complete_image{
+	float:left;
+	padding: 40px;
+}
+
+.com_signin_complete_name {
+	font-size: 15px;
+}
+.com_signin_complete_value {
+	font-size: 20px;
+}
+.com_signin_complete_button {
+	clear: both;
+	text-align: center;
+}
+.com_signin_complete_button input{
+	width: 100px;
+	height: 40px;
+	background-color: blue;
+	color: yellow;
+}

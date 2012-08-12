@@ -1,0 +1,38 @@
+.com_primary_info_table td {
+	height: 40px;
+}
+
+.com_primary_info_profile, .com_primary_info_password {
+	float:left;
+	margin: 40px;
+}
+
+.com_primary_info_name {
+	text-align: right;
+	padding: 10px;
+	font-size: 18px;
+}
+
+hr {
+	clear:both;
+}
+
+.com_primary_info_text_area {
+	float:left;
+	padding: 10px;
+}
+
+.com_primary_info_text {
+	width: 200px;
+	height: 25px;
+	background-color: white;
+	border: thick blue;
+}
+
+.com_primary_info_button {
+	width: 60px;
+	height: 20px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+}

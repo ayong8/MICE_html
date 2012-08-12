@@ -1,0 +1,121 @@
+body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form {margin:0; padding:0}
+body {font:normal datum, '돋움';}
+ul,ol,dl {list-style:none}
+img {border:0; vertical-align:top;}
+ul {list-style:none; padding:0; margin:0;}
+
+#container {
+ position: relative;
+ height: auto;
+ width: 1000px;
+ margin: auto; <!-- 레이아웃을 싸고 있는 box의 margin을 auto로 주면 중앙정렬 효과-->
+ background-color: #F90;
+}
+#header {
+ background-color: #333;
+ height: 100px;
+ width: 1000px;
+ position: relative;
+ display:table;
+}
+#left {
+ background-color: #09C;
+ float: left;
+ height: 400px;
+ width: 90px;
+ position: relative;
+ padding:5px;
+ font-size: 11px;
+}
+#right {
+ background-color: #09C;
+ float: right;
+ height: 400px;
+ width: 200px;
+ position: relative;
+ padding:5px;
+ font-size: 11px;
+}
+#main {
+ background-color: #3C0;
+ float: left;
+ min-height: 400px;
+ width: 660px;
+ position: relative;
+ padding: 15px;
+}
+#footer {
+ background-color: #C0F;
+ height: 50px;
+ width: 1000px;
+ position: relative;
+ clear: both; <!-- 상단의 흐름을 한번 끊어주기 위해 clear를 해준다.. -.-;;?? -->
+ float: left; <!-- 새로운 흐름을 지정해줘야 깨지지 않는다-->
+}
+
+
+#title {
+ 	float:left;
+}
+
+#login {
+ 	display:inline-block;
+ 	vertical-align:middle;
+}
+
+.searchbar {
+	float:left;
+	width: 300px;
+	height: 30px;
+	min-height: 100px;
+	margin-right: 10px;
+	border: 2px;
+	border-color: blue;
+}
+
+#login_window {
+	float: right;
+	width: 230px;
+	height: 70px;
+	margin-right: 10px; 
+	background-color: purple;
+	font-size: 15px;
+	color: white;
+	position:absolute;
+	right:0%; 
+    top:40%; 
+    margin-top:-35px; 
+    text-align: center;
+}
+
+#login_window p {
+	height: inherit;
+}
+
+
+.menubar table {
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	padding: 0px 20px;
+}
+
+.menubar td {
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	padding: 0px 20px;
+}
+
+.menubar2 {
+	/*border: 0px;*/
+} 
+
+.menubar2 td {
+	border: 1px;
+}
+
+.menubar2_button {
+	border: 1px;
+	border-color: black;
+}

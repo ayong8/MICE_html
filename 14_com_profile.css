@@ -1,0 +1,46 @@
+.com_profile_manage {
+	float:left;
+	margin: 40px;
+}
+
+.com_profile_name {
+	text-align: right;
+	padding: 10px;
+	padding-left: 100px;
+	font-size: 18px;
+}
+
+.com_profile_text_area {
+	float:left;
+	padding: 10px;
+}
+
+.com_profile_text {
+	width: 300px;
+	height: 20px;
+	background: white;
+	border: 10px blue;
+}
+
+
+.com_profile_button {
+	clear: left;
+	text-align: center;
+
+}
+
+
+.com_profile_button input{
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 15px;
+}
+
+.com_profile_checkbox {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+}

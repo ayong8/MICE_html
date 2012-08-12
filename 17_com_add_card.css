@@ -1,0 +1,48 @@
+.add_creditcard {
+	float:left;
+	margin: 40px;
+}
+.addcard_table td {
+	height: 50px;
+}
+
+
+.addcard_name {
+	text-align: center;
+}
+
+.addcard_text {
+	height: 20px;
+	background: white;
+	border: 10px blue;
+}
+
+.add_morecard {
+	float: right;
+}
+
+.addcard_button {
+	clear: both;
+	text-align: center;
+}
+
+.addcard_button input{
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	font-size: 15px;
+}
+
+.addcard_text_cardtype {
+	width: 100px;	
+}
+.addcard_text_cardnum {
+	width: 200px;	
+}
+.addcard_text_name {
+	width: 150px;	
+}
+.addcard_text_date {
+	width: 100px;	
+}

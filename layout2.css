@@ -1,0 +1,36 @@
+/* ppt 4번부터 */
+
+body {
+ margin: 0px;
+ font-size: 18px;
+ color: black;
+}
+#container {
+ position: relative;
+ height: auto;
+ width: 1000px;
+ margin: auto; 
+ background-color: white;
+}
+#header {
+ background-color: #333;
+ height: 100px;
+ width: inherit;
+ position: relative;
+ display:table-cell;
+ vertical-align:middle;
+}
+#main {
+ background-color: #3C0;
+ min-height: 400px;
+ width: 1000px;
+ position: relative;
+}
+#footer {
+ background-color: #C0F;
+ min-height: 50px;
+ width: 1000px;
+ position: relative;
+ clear: both;
+ float: none;
+}

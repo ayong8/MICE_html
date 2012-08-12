@@ -1,0 +1,30 @@
+.login_email {
+	width: 120px;
+	height: 30px;
+	background-color: white;
+}
+.login_password {
+	width: 120px;
+	height: 30px;
+	background-color: white;
+}
+.friend_searchbar {
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	height: 30px;
+	border: 2px;
+	border-color: blue;
+}
+.friend_ask_to_join {
+	width: 110px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+.friend_delete {
+	width: 110px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+}

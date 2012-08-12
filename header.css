@@ -1,0 +1,58 @@
+#title {
+ 	float:left;
+}
+
+#login {
+ 	display:inline-block;
+ 	vertical-align:middle;
+}
+
+.searchbar {
+	float:left;
+	width: 300px;
+	height: 30px;
+	min-height: 100px;
+	margin-right: 10px;
+	border: 2px;
+	border-color: blue;
+}
+
+#login_window {
+	float: right;
+	display: table-cell;
+	vertical-align: middle;
+	width: 230px;
+	height: 70px;
+	margin-right: 10px; 
+	background-color: purple;
+	font-size: 15px;
+	color: white;
+}
+
+
+.menubar table {
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	padding: 0px 20px;
+}
+
+.menubar td {
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	padding: 0px 20px;
+}
+
+.menubar2 {
+	/*border: 0px;*/
+} 
+
+.menubar2 td {
+	border: 1px;
+}
+
+.menubar2_button {
+	border: 1px;
+	border-color: black;
+}

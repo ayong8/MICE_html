@@ -1,0 +1,41 @@
+.com_contact_info_table td {
+	height: 40px;
+}
+
+
+.com_contact_info_manage {
+	float:left;
+	margin: 40px;
+}
+
+.com_contact_info_name {
+	text-align: right;
+	padding: 10px;
+	font-size: 22px;
+}
+
+.com_contact_info_text_area {
+	float:left;
+	padding: 10px;
+}
+
+.com_contact_info_text {
+	width: 300px;
+	height: 25px;
+	background: white;
+	border: 10px blue;
+}
+
+.com_contact_info_button {
+	clear: both;
+	text-align: center;
+}
+
+.com_contact_info_button input {
+	width: 200px;
+	height: 40px;
+	background-color: blue;
+	font-size: 15px;
+	color: white;
+	border: 0px;
+}

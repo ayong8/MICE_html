@@ -1,0 +1,42 @@
+.com_account_table td {
+	height: 20px;
+}
+
+.com_logo_image {
+	float:left;
+	margin: 40px;
+}
+
+.com_account_name {
+	text-align: right;
+	padding: 10px;
+	font-size: 18px;
+}
+
+hr {
+	clear:both;
+}
+
+.com_account_text_area {
+	float:left;
+	padding: 10px;
+}
+
+.com_account_text {
+	width: 200px;
+	height: 25px;
+	background-color: white;
+	border: thick blue;
+}
+
+.com_account_button_area input {
+	width: 100px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+}
+.com_account_button_area {
+	text-align: center;
+	margin: 0 auto;
+}
