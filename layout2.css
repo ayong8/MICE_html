@@ -1,36 +1,28 @@
-/* ppt 4번부터 */
+body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form {margin:0; padding:0}
+body {font:normal datum, '돋움';}
+ul,ol,dl {list-style:none}
+img {border:0; vertical-align:top;}
+ul {list-style:none; padding:0; margin:0;}
 
-body {
- margin: 0px;
- font-size: 18px;
- color: black;
+#wrap { margin:0 auto; width:1000px; }
+#header { float:left; width:1000px; height:100px; margin-bottom:15px; }
+#contents { float:left; width:750px; }
+#sidebar { float:right; width:200px; }
+#footer { float:left; width:1000px; margin-top:20px; }
+
+/* sidebar 스타일정의 */
+.sidebar_title {
+	text-align: center;
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+	background: black;
+	font-size: 15px;
+	color: white;
 }
-#container {
- position: relative;
- height: auto;
- width: 1000px;
- margin: auto; 
- background-color: white;
+
+.sidebar_content {
+	padding: 10px;
+	font-size: 12px;
 }
-#header {
- background-color: #333;
- height: 100px;
- width: inherit;
- position: relative;
- display:table-cell;
- vertical-align:middle;
-}
-#main {
- background-color: #3C0;
- min-height: 400px;
- width: 1000px;
- position: relative;
-}
-#footer {
- background-color: #C0F;
- min-height: 50px;
- width: 1000px;
- position: relative;
- clear: both;
- float: none;
-}
+

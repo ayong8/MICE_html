@@ -1,20 +1,24 @@
 #title {
  	float:left;
+ 	margin-top: 20px;
+ 	padding: 10px;
 }
 
 #login {
  	display:inline-block;
- 	vertical-align:middle;
+ 	margin-left: 50px;
+ 	height: 80px;
 }
 
 .searchbar {
-	float:left;
-	width: 300px;
-	height: 30px;
+	float:right;
 	min-height: 100px;
-	margin-right: 10px;
+	width: 600px;
+	height: 30px;
+	background: white;
 	border: 2px;
 	border-color: blue;
+	border-radius: 2px;
 }
 
 #login_window {
@@ -33,15 +37,19 @@
 .menubar table {
 	text-align:-moz-center; /*FF*/
 	text-align:center; /*IE*/
+	margin: 0 auto;
+	border: 2px black;
 	border-spacing: 0px;
 	padding: 0px 20px;
 }
-
 .menubar td {
-	text-align:-moz-center; /*FF*/
-	text-align:center; /*IE*/
 	border-spacing: 0px;
+	border: 2px black;
 	padding: 0px 20px;
+}
+.menubar a {
+	text-decoration: none;
+	color: black;
 }
 
 .menubar2 {

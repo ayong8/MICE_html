@@ -6,7 +6,6 @@ ul {list-style:none; padding:0; margin:0;}
 
 #container {
  position: relative;
- height: auto;
  width: 1000px;
  margin: auto; <!-- 레이아웃을 싸고 있는 box의 margin을 auto로 주면 중앙정렬 효과-->
  background-color: #F90;
@@ -21,7 +20,6 @@ ul {list-style:none; padding:0; margin:0;}
 #left {
  background-color: #09C;
  float: left;
- height: 400px;
  width: 90px;
  position: relative;
  padding:5px;
@@ -31,7 +29,7 @@ ul {list-style:none; padding:0; margin:0;}
  background-color: #09C;
  float: right;
  height: 400px;
- width: 200px;
+ width: 180px;
  position: relative;
  padding:5px;
  font-size: 11px;
@@ -118,4 +116,34 @@ ul {list-style:none; padding:0; margin:0;}
 .menubar2_button {
 	border: 1px;
 	border-color: black;
+}
+
+/* 본문에 반복되는 부분 정의 */
+
+.contents_textmenu {
+	font: 10px bold;
+}
+
+.contents_step {
+	font: 1px bold;
+}
+
+.contents_submenubar {
+	text-align: center;
+}
+
+.contents_submenubar li {
+	display: inline-block;
+}
+
+.contents_submenubar input{
+	width: 80px;
+	height: 25px;
+	background: green;
+}
+
+/* 버튼, 텍스트 정의 */
+.txtbox2 {
+	background: #EFFBFB;
+	border: purple;
 }

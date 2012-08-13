@@ -1,16 +1,18 @@
-.com_account_table td {
+.tbl1 td {
 	height: 20px;
 }
 
-.com_logo_image {
+.img_com {
 	float:left;
-	margin: 40px;
+	margin: 80px;
 }
-
-.com_account_name {
+.txt_notice {
+	font-size: 13px;
+}
+.txt_field {
 	text-align: right;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 13px;
 }
 
 hr {
@@ -22,21 +24,23 @@ hr {
 	padding: 10px;
 }
 
-.com_account_text {
-	width: 200px;
-	height: 25px;
-	background-color: white;
-	border: thick blue;
+.select_business {
+	width: 450px;
 }
 
-.com_account_button_area input {
-	width: 100px;
-	height: 40px;
-	background-color: blue;
-	color: white;
-	border: 0px;
+.txtbox1 {
+	width: 450px;
+	height: 25px;
 }
-.com_account_button_area {
+.bottom_btn  {
 	text-align: center;
 	margin: 0 auto;
+}
+.bottom_btn input {
+	width: 200px;
+	height: 40px;
+	background-color: blue;
+	font-size: 15px;
+	color: white;
+	border: 0px;
 }

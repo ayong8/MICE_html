@@ -1,36 +1,32 @@
-.contact_info_table td {
-	height: 40px;
+
+.tbl1 {
+	width: 600px;
+}
+.tbl1 td {
+	height: 30px;
 }
 
 
-.contact_info_manage {
+.txtbox_email, .txtbox_address, .txtbox_zipcode, .txtbox_homepage { width: 400px; }
+.tbl1 select { width: 80px; }
+.txtbox_countrycode { width: 100px; }
+.txtbox_phonenum { width: 200px; }
+.txtbox_faxnum { width: 320px; }
+.txtbox_sns { width: 320px; }
+
+.img_contact {
 	float:left;
-	margin: 40px;
+	margin: 80px;
 }
 
-.contact_info_name {
+.txt_field {
 	text-align: right;
 	padding: 10px;
-	font-size: 22px;
+	font-size: 15px;
 }
 
-.contact_info_text_area {
-	float:left;
-	padding: 10px;
-}
-
-.contact_info_text {
-	width: 300px;
-	height: 25px;
-	background: white;
-	border: 10px blue;
-}
-
-.contact_info_button {
+.btn_save {
 	clear: both;
 	width: 60px;
 	height: 20px;
-	background-color: blue;
-	color: white;
-	border: 0px;
 }
