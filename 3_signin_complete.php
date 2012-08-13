@@ -20,7 +20,7 @@
 			<div class="img_travel">
 				<img src="./image/box.png">
 			</div>
-			<table class="tbl1">
+			<table class="tbl_signin_result">
 				<tr>
 					<td class="txt_result_field">Your Name</td>
 					<td class="txt_result_value">Bobby Kim</td>
