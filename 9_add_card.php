@@ -11,6 +11,7 @@
 			<? include('header.html'); ?>	
 			<? include('menubar.html'); ?>
 		<div id="contents">
+			<p class="txt_notice1">I will pay or buy when the actual deal happens by the following payment methods; </p>
 			<img src="./image/box.png" class="img_addcard">
 			<br><br>
 			<table class="tbl1">
@@ -42,7 +43,7 @@
 			<br><br>
 			<input type="button" class="btn_save" value="Save Changes">
 			<br><br><br>
-			<p class="txt_notice">*For security problem, payment system is<br> to be connected  with Pay Pal directly</p>
+			<p class="txt_notice2">*For security problem, payment system is<br> to be connected  with Pay Pal directly</p>
 		</div>
 		<div id="footer">bottom
 		</div>

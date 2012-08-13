@@ -3,12 +3,7 @@
 	text-align: center;
 }
 
-.ul_txt {
-	text-align: center;
-	list-style: circle;
-}
-
-.img_travel {
+.img_profile {
 	float:left;
 	margin: 80px;
 }
@@ -16,11 +11,12 @@
 
 .tbl1 {
 	width: 500px;
-	height: 200px;
+	height: 400px;
 }
 
 .txt_result_field {
 	text-align: center;
+	width: 250px;
 	font-size: 10px;
 }
 .txt_result_value {
@@ -31,10 +27,11 @@
 	text-align: center;
 }
 
-.btn_bottom {
+.bottom input {
 	clear: both;
-	width: 150px;
+	width: 180px;
 	height: 40px;
 	background-color: blue;
+	font-size: 15px;
 	color: yellow;
 }

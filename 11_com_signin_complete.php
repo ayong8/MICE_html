@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>div 태그</title>
-	<link href="3_signin_complete.css" rel="stylesheet" type="text/css">
+	<link href="11_com_signin_complete.css" rel="stylesheet" type="text/css">
 	<link href="layout3.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -13,13 +13,7 @@
 		<div id="contents">
 			<h3 class="txt_welcome">Welcome to MICE STAR & Thanks for Joining us!</h3><br>
   			<hr size="2"></hr><br>
-  			<ul class="ul_txt">
-  				<li>Show good words weekly to everyone sign up finally (Related  to travel  & tourism) </li>
-				<li style="font-size:20px">(Example)  Travel is one of the best way for your refreshment from your daily life! </li>
-			</ul>
-			<div class="img_travel">
-				<img src="./image/box.png">
-			</div>
+			<img src="./image/box.png" class="img_profile">
 			<table class="tbl1">
 				<tr>
 					<td class="txt_result_field">Company Name</td>
@@ -48,7 +42,7 @@
 				<tr>
 					<td class="txt_result_field">Colleagues</td>
 					<td class="txt_result_value">Bobby Kim | bobby@mice.com</td>
-				</tr>		
+				</tr>
 			</table>		
 			<div class="bottom">
 				<input type="button" value="Go Home" class="btn_gohome">

@@ -1,3 +1,9 @@
+.txt_notice1 {
+	text-align: center;
+	font-size: 15px;
+	color: purple;
+}
+
 .img_addcard {
 	float:left;
 	margin: 50px;
@@ -48,7 +54,7 @@
 	text-align:center; /*IE*/
 }
 
-.txt_notice {
+.txt_notice2 {
 	text-align: right;
 	font-size: 10px;
 }

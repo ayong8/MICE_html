@@ -1,19 +1,17 @@
-
+.tbl1 {
+	height: 300px;
+}
 
 .login_image {
 	width: 80px;
 	height: 30px;
 }
-.login_email {
-	width: 120px;
-	height: 30px;
-	background-color: white;
+.txtbox_email, .txtbox_password {
+	width: 130px;
+	height: 25px;
+	background-color: #E0F8F7;
 }
-.login_password {
-	width: 120px;
-	height: 30px;
-	background-color: white;
-}
+
 .login_search {
 	width: 110px;
 	height: 30px;

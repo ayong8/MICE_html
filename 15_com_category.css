@@ -1,43 +1,39 @@
-.com_category_manage {
+
+.img_category {
 	float:left;
 	margin: 40px;
 }
+.tbl1 { width: 700px; }
 
-.com_category_name {
-	text-align: right;
-	padding: 10px;
-	padding-left: 100px;
-	font-size: 18px;
-}
-
-.com_category_text_area {
-	float:left;
-	padding: 10px;
-}
-
-.com_category_text {
+.txtbox1 {
 	width: 300px;
 	height: 20px;
 	background: white;
-	border: 10px blue;
 }
 
-.com_category_button {
+.txt_field {
+	text-align: right;
+	padding: 10px;
+	font-size: 18px;
+}
+.txt_chkbox_field {
+	font-size: 10px;
+}
+.btn_save {
 	clear: left;
-	text-align: center;
-
-}
-
-.com_category_button input{
+	margin-left: 500px;
 	width: 150px;
 	height: 30px;
-	background-color: blue;
-	color: white;
-	border: 0px;
 	font-size: 15px;
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
+	border-spacing: 0px;
+	border-style: none;
+	padding: 0px;
+
 }
 
-.com_category_checkbox {
+.chkbox1 {
 	width: 20px;
 	height: 20px;
 	background-color: white;

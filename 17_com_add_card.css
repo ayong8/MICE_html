@@ -1,48 +1,61 @@
-.add_creditcard {
-	float:left;
-	margin: 40px;
+.txt_notice1 {
+	text-align: center;
+	font-size: 15px;
+	color: purple;
 }
-.addcard_table td {
+
+.img_addcard {
+	float:left;
+	margin: 50px;
+}
+.tbl1 {
 	height: 50px;
 }
 
-
-.addcard_name {
+.txt_field {
 	text-align: center;
 }
 
-.addcard_text {
-	height: 20px;
-	background: white;
-	border: 10px blue;
+.select_cardtype {
+	width: 130px;
+	height: 25px;	
+}
+.txtbox_cardnum {
+	width: 230px;
+	height: 25px;		
+}
+.txtbox_name {
+	width: 180px;
+	height: 25px;			
+}
+.txtbox_date {
+	width: 130px;
+	height: 25px;	
 }
 
-.add_morecard {
+
+.txt_field {
+	font-size: 14px;
+}
+
+.btn_addmorecard {
 	float: right;
 }
 
-.addcard_button {
+.btn_save {
 	clear: both;
-	text-align: center;
-}
-
-.addcard_button input{
-	width: 150px;
-	height: 30px;
-	background-color: white;
-	color: black;
+	margin-left:400px;
+	width: 220px;
+	height: 40px;
+	background-color: #29088A;
+	color: white;
 	font-size: 15px;
+	text-align:-moz-center; /*FF*/
+	text-align:center; /*IE*/
 }
 
-.addcard_text_cardtype {
-	width: 100px;	
+.txt_notice2 {
+	text-align: right;
+	font-size: 10px;
 }
-.addcard_text_cardnum {
-	width: 200px;	
-}
-.addcard_text_name {
-	width: 150px;	
-}
-.addcard_text_date {
-	width: 100px;	
-}
+
