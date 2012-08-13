@@ -1,0 +1,38 @@
+.myinterest_table td {
+	height: 40px;
+}
+
+.txt_comment {
+	margin: auto 100px;
+	color: blue;
+	font-size: 15px;
+}
+
+.img_interest {
+	float:left;
+	margin: 40px;
+}
+
+.txtbox1 {
+	width: 300px;
+	height: 40px;
+	background: white;
+	border: 10px blue;
+}
+
+.btn_select, .btn_dismiss {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	border: 0px blue;
+	font-size: 18px;
+}
+
+
+.btn_save {
+	margin-left: 400px;
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}

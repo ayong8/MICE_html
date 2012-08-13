@@ -1,26 +1,40 @@
-.signin_result {
-	padding: 20px;
+
+.txt_welcome {
+	text-align: center;
 }
 
-.signin_complete_image {
+.ul_txt {
+	text-align: center;
+	list-style: circle;
+}
+
+.img_travel {
 	float:left;
-	padding: 40px;
+	margin: 80px;
 }
 
-.signin_result {
-	float:right;
+
+.tbl1 {
+	width: 500px;
+	height: 200px;
 }
 
-.signin_complete_name {
-	font-size: 5px;
-}
-.signin_complete_value {
+.txt_result_field {
+	text-align: center;
 	font-size: 10px;
 }
-.signin_complete_button {
+.txt_result_value {
+	font-size: 20px;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.btn_bottom {
 	clear: both;
-	width: 40px;
-	height: 100px;
+	width: 150px;
+	height: 40px;
 	background-color: blue;
 	color: yellow;
 }

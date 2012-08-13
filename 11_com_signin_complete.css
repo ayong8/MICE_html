@@ -1,35 +1,37 @@
-.com_signin_complete_table {
-	padding-left: 30px;
-	float:left;
-}
 
-.com_signin_complete_table td {
-	height: 40px;
+.txt_welcome {
 	text-align: center;
 }
 
-.com_signin_complete_result {
-	padding: 20px;
-}
-
-.com_signin_complete_image{
+.img_profile {
 	float:left;
-	padding: 40px;
+	margin: 80px;
 }
 
-.com_signin_complete_name {
-	font-size: 15px;
+
+.tbl1 {
+	width: 500px;
+	height: 400px;
 }
-.com_signin_complete_value {
+
+.txt_result_field {
+	text-align: center;
+	width: 250px;
+	font-size: 10px;
+}
+.txt_result_value {
 	font-size: 20px;
 }
-.com_signin_complete_button {
-	clear: both;
+
+.bottom {
 	text-align: center;
 }
-.com_signin_complete_button input{
-	width: 100px;
+
+.bottom input {
+	clear: both;
+	width: 180px;
 	height: 40px;
 	background-color: blue;
+	font-size: 15px;
 	color: yellow;
 }

@@ -1,22 +1,35 @@
 <!-- menubar.html은 header.css를 함께 참조-->
 <link href="header.css" rel="stylesheet" type="text/css" />
 
+<div class="menubar">
 <script language="JavaScript">
    function changeColor(idname, color) {
    idname.style.backgroundColor = color;
    }
 </script>
 
-	<table class="menubar" align="center" border="1" cellspacing="0" cellpadding="3">
+	<table class="menubar_tbl">
 		<tr>
-			<td onmouseover="changeColor(this,'red')" 	onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">Primary info</td>
-		<td>Contact info</td>
-		<td>Curriculum Vitae</td>
-		<td>Category</td>
-		<td>My Interest</td>
-		<td>Payment</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="4_primary_info.php">Primary info</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="5_contact_info.php">Contact info</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="6_curriculum_vitae.php">Curriculum Vitae</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="7_category.php">Category</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="8_my_interest.php">My Interest</td>
+			<td onmouseover="changeColor(this,'red')" 	
+			onmouseout="changeColor(this,'white')" onClick="window.location='17.html'; this.color='red'">
+			<a href="9_payment.php">Payment</td>
 		</tr>
 	</table>
-
-<hr size="2" width="1000px"></hr>
-<progress value="22" max="100" style="float:right;"></progress><br>
+	<hr size="2" width="1000px">
+	<p class="menubar_progress">Profile creation <progress value="22" max="100"></progress></p><br>
+</div>
