@@ -1,0 +1,54 @@
+!!! transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    title div 태그
+    link(href='/stylesheets/2_signin.css', rel='stylesheet', type='text/css')
+    link(href='/stylesheets/layout2.css', rel='stylesheet', type='text/css')
+    link(href='header.css ', rel='stylesheet', type='text/css')
+
+  body
+    #wrap
+      #header
+        .title
+          h2 MICE Star
+          p Organize & Manage your MICE smart!
+        .login
+          input.searchbar(type='search', name='search')
+        hr(size='1', width='100%')
+      #contents
+        ul.ul_field
+          li *Name
+          li *E-mail address
+          li *Password
+          li *Location
+        ul.ul_txtbox
+          li
+            input#txtbox2.createID_text(type='text', value='Input your actual name or nick name')
+          li
+            input#txtbox2.createID_text(type='email', value='Input your actual e-mail address for verification')
+          li
+            input#txtbox2.createID_text(type='password')
+          li
+            input#txtbox2.createID_text(type='text', value='City and Country where you are staying now')
+        br
+        br
+        input.bottom_btn(type='button', value='Create ID and Sign-in')
+      #sidebar
+        p.sidebar_title Note & Direction
+        p.sidebar_content
+          | 1. Users  who has already have an ID and password can log-in when they input email address., and password
+          br
+          br
+          | 2. If they do not have, users can access this networking when they synchronize with other social network .
+          br
+          br
+          | When click the icons of social network, open API window appear and verify their ID and password
+          br
+          br
+          | 3. Users also can create his/her own ID here. When click, input filed will be shown to the next page.
+          br
+          br
+          | 4. For users conveniences, do not ask for double checking password, etc.
+      #footer
+        | bottom
