@@ -4,13 +4,38 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>div 태그</title>
 			<link href="layout.css" rel="stylesheet" type="text/css" />
-			<link href="21_create_event2.css" rel="stylesheet" type="text/css" />
+			<link href="27_create_program.css" rel="stylesheet" type="text/css" />
+			<link href="header.css "rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
 		<div id="wrap">
-			<?php include('header2.html'); ?>
-			
+			<div id="header">
+				<div class="title2">
+			  		<h2>MICE Star</h2>
+			  		<p>Organize & Manage your MICE smart!</p>
+			  	</div>
+			  	<input type="search" class="searchbar2" name="search">
+			  	<p class="login_window2">Welcome Bobby Kim<br>Messages | Settings | Sign Out</p>
+			  	<br><br>
+			  	<hr size="2" width="100%"></hr>
+			  	<table class="menubar2" frame="void">
+					<tr>
+						<td><input type="button" value="News" class="menubar2_button" style="background-color:red"> </td>
+						<td><input type="button" value="Application" class="menubar2_button" style="background-color:orange"></td>
+						<td><input type="button" value="Meetings" class="menubar2_button" style="background-color:yellow"></td>
+						<td><input type="button" value="Incentive" class="menubar2_button" style="background-color:green"></td>
+						<td><input type="button" value="Convention" class="menubar2_button" style="background-color:green"></td>
+						<td><input type="button" value="Exhibition" class="menubar2_button" style="background-color:skyblue"></td>
+						<td><input type="button" value="Festivals" class="menubar2_button" style="background-color:blue"></td>
+						<td><input type="button" value="Events" class="menubar2_button" style="background-color:purple"></td>
+						<td><input type="button" value="Travel Operator" class="menubar2_button" style="background-color:yellow"></td>
+						<td><input type="button" value="Recruiting" class="menubar2_button" style="background-color:blue"></td>
+						<td><input type="button" value="Destination" class="menubar2_button" style="background-color:red"></td>
+					</tr>
+				</table>
+			  	<hr size="2" width="100%"></hr>
+			</div>
 			<div id="sidebar">
 				<img src="./image/profile.png" class="img_profile"><br>
 				<p class="txt_name">Bobby S, Kim</p>
@@ -55,18 +80,9 @@
 							<input type="text" id="txtbox2" class="txtbox3"></td>
 						<td><input type="button" value="Calendar" id="btn_green" class="btn1"></td>
 					</tr>
-					<tr>
-						<td class="txt_field">*City / Country</td>
-						<td><input type="text" id="txtbox2" class="txtbox1"></td>
-						<td><input type="button" value="Save Draft" id="btn_green" class="btn1"></td>
-					</tr>
-					<tr>
-						<td class="txt_field">Venue</td>
-						<td><input type="text" id="txtbox2" class="txtbox1"></td>
-						<td><input type="button" value="Search Map" id="btn_green" class="btn1"></td>
-					</tr>
 				</table>
-				<input type="button" value="Save Change" id="btn_purple" class="btn_save">
+				<br>
+				<input type="button" value="Go to Step" id="btn_purple" class="btn_save">
 			</div>
 			<div id="sidebar_ad">
 				<p class="sidebar_ad_title">Note&Direction</p>

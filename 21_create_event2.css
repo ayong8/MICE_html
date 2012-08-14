@@ -1,25 +1,27 @@
-.create_event_table {
-	float:left;
-	padding: 10px;
+.tbl1 {
+	margin: 0 auto;
 }
 
-
-.create_event_name {
+.txt_field {
 	text-align: right;
 	padding: 10px;
-	padding-left: 100px;
 	font-size: 18px;
 }
 
-.create_event_text {
+.txtbox1 {
 	width: 300px;
 	height: 20px;
-	background: white;
-	border: 10px blue;
+}
+.txtbox2 {
+	width: 180px;
+	height: 20px;
+}
+.txtbox3 {
+	width: 100px;
+	height: 20px;
 }
 
-
-.create_event_button {
+.btn1 {
 	width: 100px;
 	height: 20px;
 	clear: left;
@@ -28,11 +30,8 @@
 
 }
 
-.create_event_save_change {
-	clear: both;
-	text-align: center;
-}
-.create_event_save_change input{
+.btn_save{
+	margin-left: 300px;
 	width: 150px;
 	height: 30px;
 	background-color: blue;
