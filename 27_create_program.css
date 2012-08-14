@@ -1,0 +1,41 @@
+.tbl1 {
+	margin: 0 auto;
+}
+
+.txt_field {
+	text-align: right;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.txtbox1 {
+	width: 300px;
+	height: 20px;
+}
+.txtbox2 {
+	width: 180px;
+	height: 20px;
+}
+.txtbox3 {
+	width: 100px;
+	height: 20px;
+}
+
+.btn1 {
+	width: 100px;
+	height: 20px;
+	clear: left;
+	text-align: center;
+	background: green;
+
+}
+
+.btn_save{
+	margin-left: 200px;
+	width: 250px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 17px;
+}
