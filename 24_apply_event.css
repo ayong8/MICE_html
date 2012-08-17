@@ -1,0 +1,56 @@
+.tbl1 {
+	margin: 0 auto;
+	padding: 10px;
+	height: 350px;
+}
+
+.txt_field {
+	text-align: right;
+	padding: 10px;
+}
+
+.txt_apply {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 500px;
+	height: 30px;
+	background-color: green;
+	color: white;
+}
+
+.txtbox1 {
+	width: 500px;
+	height: 20px;
+	background: #E0F8F7;
+}
+.txtbox2 {
+	width: 180px;
+}
+
+.searchbar1 {
+	width: 100%;
+}
+
+.btn_apply {
+	float: right;
+	vertical-align: middle;
+	width: 100px;
+	height: 30px;
+	background-color: #3ADF00;
+	
+}
+
+.bottom {
+	clear: both;
+	text-align: center;
+}
+.bottom input{
+	vertical-align: middle;
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 15px;
+}

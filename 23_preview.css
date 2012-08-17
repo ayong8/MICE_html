@@ -1,0 +1,42 @@
+.tbl1 {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.txt_field {
+	text-align: right;
+	padding: 10px;
+}
+
+
+.txtbox1 {
+	width: 300px;
+	height: 20px;
+	background: #E0F8F7;
+}
+.txtbox2 {
+	width: 180px;
+}
+
+
+.btn_email, .btn_phone, .btn_map {
+	width: 80px;
+	height: 20px;
+	clear: left;
+	text-align: center;
+	background: green;
+
+}
+
+.bottom {
+	clear: both;
+	text-align: center;
+}
+.bottom input{
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	color: white;
+	border: 0px;
+	font-size: 15px;
+}

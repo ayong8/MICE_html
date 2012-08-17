@@ -1,0 +1,47 @@
+!!! transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+head
+		meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+		title div 태그
+		link(href='/stylesheets/3_signin_complete.css', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/layout2.css', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/header.css ', rel='stylesheet', type='text/css')
+	body
+		#wrap
+			#header
+				.title
+					h2 MICE Star
+					p Organize & Manage your MICE smart!
+				.login
+					input.searchbar(type='search', name='search')
+				hr(size='1', width='100%')
+			#contents
+				h3.txt_welcome Welcome to MICE STAR & Thanks for Joining us!
+				br
+				hr(size='2')
+				br
+				ul.ul_txt
+					li
+						| Show good words weekly to everyone sign up finally (Related  to travel  & tourism)
+					li(style='font-size: 20px;')
+						| (Example)  Travel is one of the best way for your refreshment from your daily life!
+				.img_travel
+					img(src='./image/box.png')
+				table.tbl_signin_result
+					tr
+						td.txt_result_field Your Name
+						td.txt_result_value Bobby Kim
+					tr
+						td.txt_result_field E-mail ID
+						td.txt_result_value kimsik@gmail.com
+					tr
+						td.txt_result_field Location
+						td.txt_result_value L.A, USA
+				.bottom
+					p.txt_done
+						| Profile creation is 25% done
+						progress(value='22', max='100')
+					input.btn_bottom(type='button', value='Go Next Step')
+					input.btn_bottom(type='button', value='Home')
+			#footer
+				| bottom

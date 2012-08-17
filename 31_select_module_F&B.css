@@ -1,0 +1,106 @@
+.p_day_drag {
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.span_day {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+	margin: 10px;
+	width: 100px;
+	height: 60px;
+	background: gray;
+	border-radius: 5px;
+}
+
+.span_drag_module {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px;
+	line-height: 60px;
+	width: 490px;
+	height: 60px;
+	border-radius: 5px;
+	border: blue;
+	background: white;
+}
+
+.span_module {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 40px;
+	width: 150px;
+	height: 40px;
+	background: purple;
+	color: white;
+}
+
+.ul_fleld, .ul_txtbox {
+	text-align: center;
+}
+.ul_txtbox li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+
+.ul_field li {
+	display: inline;
+	vertical-align: middle;
+	margin-bottom: -15px;
+	margin-left: 25px;
+	height: 30px;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.ul_txtbox input {
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+}
+
+
+.txtbox1 {
+	width: 100px;
+}
+
+.txtbox2 {
+	width: 330px;
+}
+.txtbox3 {
+	width: 70px;
+}
+
+.txtbox4 {
+	width: 50px;
+}
+
+
+.txtbox_description {
+	width: 600px;
+	height: 20px;
+	text-align: center;
+}
+
+/* 본문 bottom 부분 버튼영역 */
+.bottom_btn {
+	text-align: center;
+}
+
+/* 본문 bottom 부분 버튼속성 공동정의 */
+.bottom_btn input{
+	margin: 0px 2px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+/* 본문 bottom 부분 버튼속성 개별정의 */
+.btn_goback { background: white; width: 120px; }
+.btn_cancel { background: yellow; width: 120px;  }
+.btn_finish { background: green; width: 120px;  }
+.btn_AddMoreModule { background: blue; width: 230px; color: white; }

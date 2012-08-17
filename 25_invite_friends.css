@@ -1,0 +1,50 @@
+.tbl1, .tbl2 {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.txt_invite_friends {
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	background-color: #fbc294;
+	border-color: black;
+	border-radius: 5px;
+}
+
+.img_sns {
+	width: 80px;
+	height: 30px;
+}
+
+.txt_name {
+	font-size: 12px;
+}
+
+.bottom {
+	text-align: right;
+	padding: 10px 30px 10px 0px;
+}
+
+.bottom input {
+	width: 130px;
+	height: 30px;
+	font-size: 14px;
+}
+
+.chkbox1 { 
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+
+.btn_asktojoin {
+	vertical-align: middle;
+	width: 110px;
+	height: 30px;
+}
+.btn_delete {
+	width: 110px;
+	height: 30px;
+}

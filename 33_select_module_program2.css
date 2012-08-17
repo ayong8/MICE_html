@@ -1,0 +1,36 @@
+
+.span_text{
+	display: inline-block;
+	text-align: center;
+	background: blue;
+	color: white;
+	width: 600px;
+	height: 50px;
+}
+
+/* 본문 중앙의 table 영역 */
+.table_td1 {
+	width: 150px;
+}
+
+.table_td2 {
+	width: 300px;
+}
+
+#btn {
+	width: 150px;
+	background: green;
+	height: 30px;
+	}
+
+/* 본문 bottom 부분 버튼영역 */
+.bottom_btn {
+	text-align: center;
+}
+
+/* 본문 bottom 부분 버튼속성 공동정의 */
+.bottom_btn input{
+	margin: 0px 2px;
+	height: 40px;
+	border-radius: 5px;
+}
